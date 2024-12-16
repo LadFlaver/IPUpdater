@@ -21,7 +21,7 @@ async def main():
     print(IPs.newIP)
     
     #Checks if the length of the new IP to ensure no error messages get sent into Discord#
-    if len(IPs.newIP) >= 16 or len(IPs.newIP) <= 6:
+    if len(IPs.newIP) >= 15 or len(IPs.newIP) <= 7:
         print('Error! IP address is too long, or too short!')
         
     #Checks to see if the new IP matches the old one. If not, it will write the new one to ip.txt and send message.txt to Discord#
