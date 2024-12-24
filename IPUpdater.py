@@ -60,7 +60,7 @@ def getToken(): #Sets the token variable to token in token.txt
     global token
     f = open('token.txt', 'r')
     token = f.read()
-    f.close
+    f.close()
 
 def getChannelID(): #Sets the value of IPs.channel to the channel ID in channel.txt
     f = open('channel.txt', 'r')
